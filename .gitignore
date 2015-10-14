@@ -1,0 +1,9 @@
+TAGS
+tags
+*.beam
+*.swp
+*.app
+.rebar
+.eunit
+deps
+release/sella
