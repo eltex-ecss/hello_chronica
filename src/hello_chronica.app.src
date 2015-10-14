@@ -1,0 +1,25 @@
+%%%-------------------------------------------------------------------
+%%% -*- coding: utf-8 -*-
+%%% @author Nikita Roshchupkin
+%%% @copyright (C) 2015, Eltex, Novosibirsk, Russia
+%%% @doc
+%%%
+%%% @end
+%%% Created : Oct 2015
+%%%-------------------------------------------------------------------
+{application, hello_chronica, [
+    {description, "My testing of various servers"},
+    {id,"testing"},
+    {modules, []},
+    {registered,[]},
+    {included_applications,[]},
+    {applications,
+        [
+            kernel,
+            stdlib,
+            chronica
+         ]
+    },
+    {mod, {hello_chronica_app,[]}},
+    {vsn, "1.0"}
+]}.
